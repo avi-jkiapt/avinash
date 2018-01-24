@@ -1,0 +1,123 @@
+body{
+  background-color: #EFFAFC;
+}
+.logo img{
+  border-radius: 50%;
+  float: right;
+  height: 170px;
+  width: 170px;
+  margin-right: 70px;
+  margin-top: -200px;
+  position: relative;
+
+}
+div .header{
+  background-color: #92C4AA;
+  height: 220px;
+  border-radius: 2px;
+}
+.header h1{
+  font-weight: 150;
+  font-size: 65px;
+  padding: 25px 25px;
+  color: #DEF8EA;
+}
+h4{
+  color: #DEF8EA;
+}
+div .education .thumbnail{
+  border: 2px solid #ACEFCF;
+  font-size: 22px;
+  font-family: 'Cormorant Garamond', serif;
+}
+div .project .thumbnail{
+  border:0.5px solid #AA79DB;
+  font-size: 24px;
+  font-family: 'Cookie', cursive;
+}
+.project .thumbnail h3{
+  color:#AA79DB;
+  font-size: 32px;
+}
+.thumbnail h3{
+  color:#02B3E4;
+  font-size: 32px;
+}
+.certificate h2{
+  color: #FF5B83;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+}
+.certificate p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+}
+div.footer{
+  background-color: #92C4AA;
+  height: 30px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+div.copyright{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+}
+@media (max-width:460px) and (min-width:338px){
+  .logo img{
+    border-radius: 50%;
+    float: right;
+    height: 80px;
+    width: 80px;
+    margin-top:-160px;
+    /* margin-right: 10px;
+
+    position: relative; */
+
+  }
+  #keen{
+    font-size: 12px;
+    margin-left: -18px;
+  }
+  div .header{
+    background-color: #92C4AA;
+    height: 220px;
+    border-radius: 2px;
+  }
+  .header h1{
+    /* font-weight: 150; */
+    font-size: 35px;
+    /* padding: 25px 25px; */
+    color: #DEF8EA;
+  }
+}
+@media (max-width:337px)
+{
+  .logo img{
+    border-radius: 50%;
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin-top:-140px;
+    margin-right: 10px;
+    /* margin-right: 10px;
+
+    position: relative; */
+
+  }
+  #keen{
+    font-size: 12px;
+    margin-left: -18px;
+  }
+  div .header{
+    background-color: #92C4AA;
+    height: 220px;
+    border-radius: 2px;
+  }
+  .header h1{
+    /* font-weight: 150; */
+    font-size: 35px;
+    /* padding: 25px 25px; */
+    color: #DEF8EA;
+  }
+}
