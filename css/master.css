@@ -121,3 +121,63 @@ div.copyright{
     color: #DEF8EA;
   }
 }
+@media (max-width:985px) and (min-width:729px)
+{
+  .logo img{
+    border-radius: 50%;
+    float: right;
+    height: 120px;
+    width: 120px;
+    margin-top:-140px;
+    margin-right: 70px;
+    /* margin-right: 10px;
+
+    position: relative; */
+
+  }
+  #keen{
+    font-size: 18px;
+    margin-left: -18px;
+  }
+  div .header{
+    background-color: #92C4AA;
+    height: 220px;
+    border-radius: 2px;
+  }
+  .header h1{
+    /* font-weight: 150; */
+    font-size: 45px;
+    /* padding: 25px 25px; */
+    color: #DEF8EA;
+  }
+}
+@media (max-width:728px) and (min-width:461px)
+{
+  .logo img{
+    border-radius: 50%;
+    float: right;
+    height: 80px;
+    width: 80px;
+    margin-top:-160px;
+    margin-right: 50px;
+    /* margin-right: 10px;
+
+    position: relative; */
+
+  }
+  #keen{
+    font-size: 18px;
+    margin-left: -18px;
+  }
+  div .header{
+    background-color: #92C4AA;
+    height: 220px;
+    border-radius: 2px;
+  }
+  .header h1{
+    /* font-weight: 150; */
+    font-size: 45px;
+    /* padding: 25px 25px; */
+    color: #DEF8EA;
+  }
+}
