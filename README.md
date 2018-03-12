@@ -1,2 +1,2 @@
 # avinash
-A Resume of mine
+A Resume of mine - https://avi-jkiapt.github.io/avinash/
